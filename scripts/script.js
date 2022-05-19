@@ -8,143 +8,164 @@ new Vue({
       duration: null,
       currentTime: null,
       isTimerPlaying: false,
-      tracks: [
+      tracks: [ {
+        name: "Darshan Raval 🌈",
+        artist: "O Meherma",
+        source: "mp3/15.mp3",
+       cover: "img/15.jpg",
+        url: "https://www.youtube.com/watch?v=HYUpNJJELeE",
+        favorited: false
+      },    {
+        name: "Arijit Singh 💕",
+        artist: "Saware",
+        source: "mp3/28.mp3",
+       cover: "img/288.webp",
+        url: "https://www.youtube.com/watch?v=sotrgeTvOIo",
+        favorited: false
+      }, {
+        name: "Arijit Singh 💖",
+        artist: "Mere Yaraa",
+        source: "mp3/31.mp3",
+        cover: "img/311.webp",
+        url: "https://www.youtube.com/watch?v=u5r77-OQwa8",
+        favorited: false
+      },  {
+        name: "Arijit Singh From Kalank (forward at 4:00)",
+        artist: "Main Tera ⛵",
+        source: "mp3/27.mp3",
+       cover: "img/277.webp",
+        url: "https://www.youtube.com/watch?v=p4Z_ueeT_XQ",
+        favorited: false
+      }, 
         {
-          name: "Arijit Singh",
-          artist: "Jaan Nisaar",
+          name: "Arijit Singh 🌧",
+          artist: "Jaan Nisaar ",
           source: "mp3/1.mp3",
-         cover: "img/1.jpg",
+         cover: "img/1.PNG",
           url: "https://www.youtube.com/watch?v=za4Q_7gYyS4",
           favorited: false
-        },
+        },   
         {
-          name: "Billie Ellish & Khalid",
-          artist: "Lovely",
+          name: "Billie Ellish & Khalid ⚡",
+          artist: "Lovely ",
           source: "mp3/2.mp3",
          cover: "img/2.png",
           url: "https://www.youtube.com/watch?v=V1Pl8CzNzCw",
           favorited: false
-        },        {
-          name: "Taylor Swift",
-          artist: "Exile",
-          source: "mp3/3.mp3",
-         cover: "img/3.jpg",
-          url: "https://www.youtube.com/watch?v=osdoLjUNFnA",
-          favorited: false
-        },        {
-          name: "Arjun Kanugo",
-          artist: "Fursat",
+        },     {
+          name: "Arjun Kanugo 🎸",
+          artist: "Fursat ",
           source: "mp3/4.mp3",
          cover: "img/4.jpg",
           url: "https://www.youtube.com/watch?v=qMfvbKBvOtI",
           favorited: false
-        },        {
-          name: "A. R. Rahman & Mohit Chauhan",
+        },    {
+          name: "Taylor Swift 🍁",
+          artist: "Exile ",
+          source: "mp3/3.mp3",
+         cover: "img/3.jpg",
+          url: "https://www.youtube.com/watch?v=osdoLjUNFnA",
+          favorited: false
+        },            {
+          name: "A. R. Rahman & Mohit Chauhan 🛐",
           artist: "Kun Faya Kun",
           source: "mp3/5.mp3",
          cover: "img/5.jpg",
           url: "https://www.youtube.com/watch?v=T94PHkuydcw",
           favorited: false
         },        {
-          name: "Album Song From A Tv Show 'Dahleez'",
+          name: "Album Song From A Tv Show 'Dahleez' 🎵",
           artist: "More Jiya",
           source: "mp3/6.mp3",
          cover: "img/6.jpg",
           url: "https://www.youtube.com/watch?v=hzDQGKx8YEU",
           favorited: false
         },        {
-          name: "Jasleen Royal & B Praak",
+          name: "Jaslin Royal & B Praak 💓",
           artist: "Ranjha",
           source: "mp3/7.mp3",
          cover: "img/7.jpg",
           url: "https://www.youtube.com/watch?v=V7LwfY5U5WI",
           favorited: false
         },        {
-          name: "Bruno Mars & Kina",
+          name: "Bruno Mars & Kina 🌙",
           artist: "Talking To The Moon x Play Date",
           source: "mp3/8.mp3",
          cover: "img/8.jpg",
           url: "https://www.youtube.com/watch?v=woZyS_TGZ4I",
           favorited: false
         },        {
-          name: "Aurora",
+          name: "Aurora ❄",
           artist: "Runaway",
           source: "mp3/9.mp3",
          cover: "img/9.jpg",
           url: "https://www.youtube.com/watch?v=d_HlPboLRL8",
           favorited: false
         },        {
-          name: "Arijit Singh & Alka Yagnik",
+          name: "Arijit Singh & Alka Yagnik🖤",
           artist: "Agar Tum Sath Ho",
           source: "mp3/10.mp3",
          cover: "img/10.jpg",
           url: "https://www.youtube.com/watch?v=xRb8hxwN5zc",
           favorited: false
         },        {
-          name: "Kina Ft. Snow ",
+          name: "Kina Ft. Snow ⏳",
           artist: "Get You The Moon",
           source: "mp3/11.mp3",
          cover: "img/11.png",
           url: "https://www.youtube.com/watch?v=jOFVF6V8th8",
           favorited: false
         },        {
-          name: "Momina Musthsan & Rahat Fateh Ali Khan",
+          name: "Momina Musthsan & Rahat Fateh Ali Khan😍",
           artist: "Afreen Afreen",
           source: "mp3/12.mp3",
          cover: "img/12.jpg",
           url: "https://www.youtube.com/watch?v=kw4tT7SCmaY",
           favorited: false
         },        {
-          name: "Lindsey Sterling",
+          name: "Lindsey Sterling 🌠",
           artist: "Carol Of The Bells",
           source: "mp3/13.mp3",
          cover: "img/13.jpg",
           url: "https://www.youtube.com/watch?v=EKkzbbLYPuI",
           favorited: false
         },        {
-          name: "Nusrat Fateh Ali Khan",
+          name: "Nusrat Fateh Ali Khan 🙇🏻‍♂️",
           artist: "Yeh Jo Halka Halka Fitoor Hai",
           source: "mp3/14.mp3",
          cover: "img/14.jfif",
           url: "https://www.youtube.com/watch?v=3R1eUfVxOGI",
           favorited: false
-        },        {
-          name: "Darshan Raval",
-          artist: "O Meherma",
-          source: "mp3/15.mp3",
-         cover: "img/15.jpg",
-          url: "https://www.youtube.com/watch?v=HYUpNJJELeE",
-          favorited: false
-        },        {
-          name: "Arijit Singh",
+        },            {
+          name: "Arijit Singh 🤞",
           artist: "Tuje Kitna Chahne Lage Hum",
           source: "mp3/16.mp3",
-         cover: "img/16.jpg",
+         cover: "img/16.webp",
           url: "https://www.youtube.com/watch?v=2IGDsD-dLF8",
           favorited: false
         },        {
-          name: "Mohit Chauhan & Suzanne D'mello",
+          name: "Mohit Chauhan & Suzanne D'mello 😇",
           artist: "Tum Ho",
           source: "mp3/17.mp3",
          cover: "img/17.jpg",
           url: "https://www.youtube.com/watch?v=gkCKTuR-ECI",
           favorited: false
         },        {
-          name: "Ali Azmat",
+          name: "Ali Azmat 🙌🏻",
           artist: "Ishq Bhi Kiya Re Maula",
           source: "mp3/18.mp3",
          cover: "img/18.jpg",
           url: "https://www.youtube.com/watch?v=yqiNOCfn-wU",
           favorited: false
         },        {
-          name: "Arijit Singh Arijit Singh & Altamash Faridi",
+          name: " Arijit Singh & Altamash Faridi 👑",
           artist: "Aayat",
           source: "mp3/19.mp3",
          cover: "img/19.jpg",
           url: "https://www.youtube.com/watch?v=bk_Z79Fjqss",
           favorited: false
         },        {
-          name: "Shivam Pathak",
+          name: "Shivam Pathak ✨",
           artist: "Ek Dil Ek Jaan",
           source: "mp3/20.mp3",
          cover: "img/20.jpg",
@@ -152,12 +173,68 @@ new Vue({
           favorited: false
         },        {
           name: "Hymn For The Weekend",
-          artist: "ColdPlay",
+          artist: "ColdPlay  ⚛",
           source: "mp3/21.mp3",
          cover: "img/21.jpg",
           url: "https://www.youtube.com/watch?v=YykjpeuMNEk",
           favorited: false
         },
+        {
+          name: "Dandelions 🥀",
+          artist: "Ruth B",
+          source: "mp3/22.mp3",
+         cover: "img/22.jpg",
+          url: "https://www.youtube.com/watch?v=W8a4sUabCUo",
+          favorited: false
+        }, {
+          name: "Night Changes 🌉",
+          artist: "One Direction ",
+          source: "mp3/23.mp3",
+         cover: "img/23.png",
+          url: "https://www.youtube.com/watch?v=syFZfO_wfMQ",
+          favorited: false
+        },
+        {
+          name: "Glass Animal 🌊",
+          artist: "Heat Waves",
+          source: "mp3/24.mp3",
+         cover: "img/24.jpg",
+          url: "https://www.youtube.com/watch?v=mRD0-GxqHVo",
+          favorited: false
+        }, {
+          name: "Chain Smokers 🔥",
+          artist: "Closer",
+          source: "mp3/25.mp3",
+         cover: "img/255.png",
+          url: "https://www.youtube.com/watch?v=PT2_F-1esPk",
+          favorited: false
+        },
+        {
+          name: "Zayn",
+          artist: "Dusk till Down 💏",
+          source: "mp3/26.mp3",
+         cover: "img/26.gif",
+          url: "https://www.youtube.com/watch?v=tt2k8PGm-TI",
+          favorited: false
+        },
+        
+     {
+          name: "SpiderMan:No Way Home💔",
+          artist: "Peter Saves MJ ",
+          source: "mp3/29.mp4",
+          cover: "img/299.webp",
+          url: "https://www.youtube.com/watch?v=mg0s37RKf1w",
+          favorited: false
+        },
+        ,{
+          name: "Blake Neeley 🎧",
+          artist: "Title Track of Netflix series YOU Season 1  ",
+          source: "mp3/30.mp3",
+          cover: "img/300.webp",
+          url: "https://www.youtube.com/watch?v=uJJ2_xH7h6s",
+          favorited: false
+        },
+    
       ],
       currentTrack: null,
       currentTrackIndex: 0,
